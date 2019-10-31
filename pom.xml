@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.3</version>
+	<version>2.0.3</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.66.94.185:9000/</sonar.host.url>
+		<sonar.host.url>http://52.66.160.149:9000/</sonar.host.url>
 		<sonar.login>cfb987c82f3becd4b4ff086bcd300418f514f3c0</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.247.133:8081/repository/Zomato-Release-p1/</url>
+	      <url>http://13.235.33.95:8081/repository/Zomato-Release-p1/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.247.133:8081/repository/Zomato-Snapshot-p1/</url>
+	      <url>http://13.235.33.95:8081/repository/Zomato-Snapshot-p1/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
