@@ -1,0 +1,50 @@
+What is Tomcat? 
+Ans) Tomcat is a java based application server and it is executable and archive files
+
+What is Application Server? 
+Ans)Application server is a dynamical execute as per the changes     
+
+Write down at least 6 Application server names? 
+
+Ans) JBOSS,WildFly,web logic,web sphere,web sphere line products   
+
+What is Webserver? 
+Ans)Web sphere will display the static contect and it will very speed compare to application server. 
+Write down at least 2 Webserver names? 
+Ans)Apache HTTP Server,Ngimx,oracle iplanet    
+
+What is web container? 
+Ans) Web container is basically address the default port number (8080) and we can change the port as well which is available in server.xml file in conf folder.
+
+What is the default port number for Tomcat? 
+Ans)    8080
+
+In which file we need to change the port number from default to custom port? 
+Ans)apche tomcat/conf/server.xml 
+
+  <Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+
+How to create the users in Tomcat? 
+Ans) 
+<role rolename="admin-gui"/>
+<role rolename="manager-gui"/>
+
+<user username="admin" password="admin" roles="manager-gui,admin-gui"/>
+
+What are the roles for Users in Tomcat? 
+Ans)adding the admin-gui,manager-gui
+
+How many ways we can deploy the application into Tomcat? 
+Ans)    can be deployed through file located in server,deploy through browser 
+
+In which folder we will deploy the application in Tomcat server? 
+Ans)  
+
+Can we deploy the EAR in tomcat? 
+Ans)  No
+
+What are the Connectors Used In Tomcat? 
+Ans)Connector elements are Tomcat's links to the outside world, allowing Catalina to receive requests, pass them to the correct web application, and send back the results through the Connector as dynamically generated content.  
